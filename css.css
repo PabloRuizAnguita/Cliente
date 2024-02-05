@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Sportium;
+    src: url(./fuentes/RaceSport-BWPLV.ttf);
+}
+body{
+    font-family: Sportium;
+    background: fixed url(./imagenes/foto-porteria.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangulo{
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 65%;
+    height: 27%;
+}
+.titulo{
+    margin-top: -10px;
+    font-size: 17px;
+    text-align: center;
+}
+.formulario{
+    margin-top: 45px;
+    margin-left: 13%;
+}
+.input{
+    width: 60%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+.boton-añadir{
+    margin-left: 5%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.boton-acciones{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.boton-mostrar{
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #009c00;
+    color: #ffffff;
+    margin-left: 20%;
+}
+.boton-clean{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #c50202;
+    color: #ffffff;
+    margin-left: 20%;
+}
+.boton-añadir:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.boton-mostrar:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.boton-clean:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
