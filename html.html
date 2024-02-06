@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
     <script src="js.js"></script>
+    <link rel="manifest" href="manifest.json">
     <title>Document</title>
 </head>
 <body>
@@ -17,8 +18,15 @@
         </div>
         <div class="boton-acciones">
             <input class="boton-mostrar" type="submit" value="Mostrar" onclick="mostrarT()">   
-            <input class="boton-clean" type="submit" value="Borrar" >
+            <input class="boton-clean" type="submit" value="Borrar" onclick="cleanT()" >
         </div>
+        <div class="listilla">
+            <h2 id="tituloLista" style="display: none;">Lista Del Equipo</h2>
+        </div>
+            <div class="lista1">
+                <ul id="lista"></ul>
+            </div>
+        
     </div>
 </body>
 </html>

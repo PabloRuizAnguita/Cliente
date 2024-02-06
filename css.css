@@ -13,20 +13,20 @@ body{
 }
 .rectangulo{
     background-color: rgba(255, 255, 255, 0.589);
-    width: 65%;
-    height: 27%;
+    width: 55%;
+    height: 50%;
 }
 .titulo{
     margin-top: -10px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 .formulario{
     margin-top: 45px;
-    margin-left: 13%;
+    margin-left: 19%;
 }
 .input{
-    width: 60%;
+    width: 61%;
     height: 35px;
     border: none;
     border-radius: 10px;
@@ -45,8 +45,9 @@ body{
 }
 
 .boton-acciones{
-    margin-top: 8%;
-    margin-left: 5%;
+
+    margin-top: 5%;
+    margin-left: 9%;
 }
 .boton-mostrar{
 
@@ -67,6 +68,16 @@ body{
     color: #ffffff;
     margin-left: 20%;
 }
+#boton-eliminar{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #c5025d;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
 .boton-añadir:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
@@ -75,7 +86,28 @@ body{
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
+
 .boton-clean:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
 }
+.listilla{
+    display: flex;
+    justify-content: center;
+    margin-left: -5%;
+    
+}
+#tituloLista{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    margin-left: -5%;
+}
+.lista1{
+    margin-left: 31%;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
